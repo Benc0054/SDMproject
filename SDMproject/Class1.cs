@@ -8,7 +8,7 @@ namespace SDMproject
 {
     public class Class1
     {
-        public int Tests()
+        public int Tests
         {
             return 0;
         }
