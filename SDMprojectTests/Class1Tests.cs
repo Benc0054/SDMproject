@@ -14,9 +14,16 @@ namespace SDMproject.Tests
         [TestMethod()]
         public void TestsTest()
         {
+<<<<<<< HEAD
             Assert.Fail();
         
+=======
+            Assert.AreEqual(0,0);
+        }
+>>>>>>> origin/develop
 
         //more code
+        //even more codeeee
+        //dadag
     }
 }
