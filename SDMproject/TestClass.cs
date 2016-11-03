@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace SDMproject
 {
-    public class Class1
+    public class TestClass
     {
-        public int Zero()
+        public int TestMethod()
         {
             return 0;
         }
-        //some code
     }
 }

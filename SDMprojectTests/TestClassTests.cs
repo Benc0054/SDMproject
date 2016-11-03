@@ -9,15 +9,16 @@ using System.Threading.Tasks;
 namespace SDMproject.Tests
 {
     [TestClass()]
-    public class Class1Tests
+    public class TestClassTests
     {
-        [TestMethod()]
-        public void TestsTest()
-        {
-            Assert.AreEqual(0,1);
-        }
+        private readonly TestClass _testClass = new TestClass();
 
-        //more code
-        //Hi
+        [TestMethod()]
+        public void TestMethodTest()
+        {
+            int result = _testClass.TestMethod();
+            int expected = 0;
+            Assert.AreEqual(result, expected);
+        }
     }
 }
