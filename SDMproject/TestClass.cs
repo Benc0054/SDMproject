@@ -13,5 +13,10 @@ namespace SDMproject
             return 0;
         }
         //it is a change
+
+        public int TestMethod2()
+        {
+            return 1;
+        }
     }
 }
