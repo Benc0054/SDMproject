@@ -9,8 +9,8 @@ namespace SDMproject
     public class Class1
     {
         public int Tests()
-        {
-            return 0;
+        
+            return 0
         }
         //some code
     }
