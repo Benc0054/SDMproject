@@ -14,7 +14,7 @@ namespace SDMproject.Tests
         [TestMethod()]
         public void TestsTest()
         {
-            Assert.AreEqual(0,0);
+            Assert.Fail();
         }
 
         //more code
